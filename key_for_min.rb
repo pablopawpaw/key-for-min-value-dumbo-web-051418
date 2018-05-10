@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   #reverse keys and values to a new hash
 new_hash = {}
-hash.each do |k,v|
+name_hash.each do |k,v|
   new_hash[v] = k
 end 
 
